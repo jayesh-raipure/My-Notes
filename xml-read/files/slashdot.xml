@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<newspaper>
+  <name>Cooking Today</name>
+  <issue_date>November 15th, 2014</issue_date>
+  <articles>
+    <article>
+      <title>Bacon Cooking</title>
+      <link>http://baconcooklove.com</link>
+      <summary>Just a few thousand ideas about bacon</summary>
+    </article>
+    <article>
+      <title>Cooking with leftovers</title>
+      <link>http://love.com</link>
+      <summary>Just a few thousand ideas about tasting love twice</summary>
+    </article>
+  </articles>
+</newspaper>
