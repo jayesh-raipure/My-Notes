@@ -1,3 +1,3 @@
-# hello-jayesh
-just for the practice
-First edit for testing commit.
+# My Notes
+This repository contains the codes(Written by while practiece), related pdf book and note to learn ruby, ROR and unix. 
+
