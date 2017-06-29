@@ -1,0 +1,47 @@
+/**************************** Vim Editor Basics *********************************/
+## 1) Open a file using vim ##
+ >> vim file_name.txt
+################################
+
+## 2) Basic modes of vim ##
+>> Vim has four modes: Normal, Insert, Visual, and Command. 
+>> Each mode shows it’s name at the bottom left of the status bar in the program.
+>> When you start vim, its in Normal mode. 
+>> By using a, A, i, I, o and O you can inter into insert mode. Esc key takes user from insert mode.
+>> v, V and ctrl+v used to go into visual mode.
+>> : used to go into command mode.
+
+## 3) Saving the file ##
+>> In normal mode you can save and exit using ZZ.
+>> You can also save the file with :w!. The : will put you into Command Mode, the w will write the file, 
+   and the ! forces the operation to write without questions. 
+>> Or, you can type :wq or :wq!. The q quits the editor. 
+>> You can also use :q! to quit without saving.
+
+## 4) Basic Cursor Movements ##
+>> In Normal mode, you move around the file and make specific edits to the file. 
+>> The h key moves the cursor to the left.
+>> The l key moves the cursor to the right. 
+>> The j key moves the cursor down a line, while the k key moves the cursor up a line.
+>> To move to the next word, use the w command. 
+>> The previous word command is b.
+>> If you want to move more than one space, word, or line at a time, type a number first and then the direction key.
+>> By using the Command mode, you can switch the line numbering to absolute or relative:
+  >> 1.Absolute numbering mode is the normal: each line with a unique number in sequential order. 
+    >> To have absolute line numbering, you can use the :set number command. To not show line numbers, 
+       you use the :set nonumber command.
+  >> 2. Relative numbering mode shows the number of lines away from the current edit line.
+    >> To set Relative numbering, type :set relativenumber. To put it back to Absolute numbering, type :set norelativenumber.
+
+## 5) The .vimrc File ##
+>> The .vimrc file is Vim’s configuration file. Any command you type in command mode can be added to this file. 
+   It will be ran every time Vim is started.
+   
+## 6) Search and Replace ##
+>> You can search by using the / command in Normal mode. By typing /This, you will see all of the This words highlighted as below.
+>> By typing n, your cursor goes to the next occurrence of the search pattern. By using N, you can go back to a previous occurrence.
+>> In order to replace text, you have to make use of Command mode.
+>> In Command mode, the s command is for substitution in the current line, %s for substitution in the whole file, 
+   and <begin>,<end>s for substituting from <begin> line number to the <end> line number.
+>> The format is /<search pattern>/<replace pattern>/gi where the <search pattern> and the <replace pattern> are standard regular expressions. 
+>> An I would make the search case sensitive. The g makes the substitution global in the line
