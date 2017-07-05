@@ -54,3 +54,5 @@
 >> Using the d command will cut the section so you can paste with the p command.
 >> In order to select a block of text, you start with the <ctrl>-v command. 
 >> The V command starts Visual mode selecting by lines and not characters.
+
+Source of Content: https://computers.tutsplus.com/tutorials/vim-for-beginners--cms-21118
