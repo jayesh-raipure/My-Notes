@@ -45,3 +45,12 @@
    and <begin>,<end>s for substituting from <begin> line number to the <end> line number.
 >> The format is /<search pattern>/<replace pattern>/gi where the <search pattern> and the <replace pattern> are standard regular expressions. 
 >> An I would make the search case sensitive. The g makes the substitution global in the line
+
+## 7) Copy, Cut, and Paste ##
+>> When you press v in Normal mode, Visual mode begins. All cursor movements cause a selection from the beginning of Visual mode. 
+>> When you have a selection, using the y command yanks or copies the selected text. 
+>> Move to a new location and use the p command to paste after the cursor, while the P command pastes before the cursor.
+>> After making a selection, the x command will delete the selection. 
+>> Using the d command will cut the section so you can paste with the p command.
+>> In order to select a block of text, you start with the <ctrl>-v command. 
+>> The V command starts Visual mode selecting by lines and not characters.
