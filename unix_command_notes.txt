@@ -54,3 +54,5 @@ x - execute (and access directory)
 + - add permission
 - - take away permission
 /*****************************************************/
+https://linuxjourney.com/
+http://www.linuxcommand.org/tlcl.php
