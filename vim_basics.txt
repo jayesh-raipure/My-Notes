@@ -1,7 +1,6 @@
 /**************************** Vim Editor Basics *********************************/
 ## 1) Open a file using vim ##
  >> vim file_name.txt
-################################
 
 ## 2) Basic modes of vim ##
 >> Vim has four modes: Normal, Insert, Visual, and Command. 
