@@ -33,7 +33,7 @@
     >> To set Relative numbering, type :set relativenumber. To put it back to Absolute numbering, type :set norelativenumber.
 
 ## 5) The .vimrc File ##
->> The .vimrc file is Vim’s configuration file. Any command you type in command mode can be added to this file. 
+>> The .vimrc file is Vim's configuration file. Any command you type in command mode can be added to this file. 
    It will be ran every time Vim is started.
    
 ## 6) Search and Replace ##
